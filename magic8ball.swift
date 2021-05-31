@@ -27,8 +27,7 @@ switch randomNumber {
   eightBall = "Error"
 }
 
-
-playerName == "" ? print("Question: \(playerQuestion)") : print("\(playerName) asks: \(playerQuestion)")
-
 print("\(playerName) asks: \(playerQuestion)")
 print("Magic 8 Ball's answer: \(eightBall).")
+
+playerName == "" ? print("Question: \(playerQuestion)") : print("\(playerName) asks: \(playerQuestion)")
